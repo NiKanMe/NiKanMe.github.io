@@ -5914,3 +5914,9 @@ blockquote.pullquote.right {
 #algolia-search .ais-SearchBox-submitIcon {
   display: none;
 }
+.framework-info {
+  display: none;
+}
+#framework-info {
+  display: none;
+}
