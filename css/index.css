@@ -3590,7 +3590,7 @@ h1.page-title + .tag-cloud-list {
   -ms-filter: none;
   filter: none;
 }
-#nav #none_space {
+#nav #blog-info {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -o-box-flex: 1;
@@ -3598,50 +3598,51 @@ h1.page-title + .tag-cloud-list {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  color: var(--light-grey);
 }
-.site-icon {
+#nav #blog-info .site-icon {
   margin-right: 6px;
   height: 36px;
   width: 40px;
   vertical-align: middle;
 }
-#toggle-menu {
+#nav #toggle-menu {
   display: none;
   padding: 2px 0 0 6px;
   vertical-align: top;
 }
-#toggle-menu:hover {
+#nav #toggle-menu:hover {
   color: var(--white);
 }
-a {
+#nav a {
   color: var(--light-grey);
 }
-a:hover {
+#nav a:hover {
   color: var(--white);
 }
-.site-name {
+#nav .site-name {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
   font-weight: bold;
 }
-.menus_items {
+#nav .menus_items {
   display: inline;
 }
-.menus_items .menus_item {
+#nav .menus_items .menus_item {
   position: relative;
   display: inline-block;
   padding: 0 0 0 14px;
 }
-.menus_items .menus_item:hover .menus_item_child {
+#nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
 }
-.menus_items .menus_item:hover > a > i:last-child {
+#nav .menus_items .menus_item:hover > a > i:last-child {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.menus_items .menus_item > a > i:last-child {
+#nav .menus_items .menus_item > a > i:last-child {
   padding: 4px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -3649,7 +3650,7 @@ a:hover {
   -ms-transition: -ms-transform 0.3s;
   transition: transform 0.3s;
 }
-.menus_items .menus_item .menus_item_child {
+#nav .menus_items .menus_item .menus_item_child {
   position: absolute;
   right: 0;
   display: none;
@@ -3666,7 +3667,7 @@ a:hover {
   -ms-animation: sub_menus 0.3s 0.1s ease both;
   animation: sub_menus 0.3s 0.1s ease both;
 }
-.menus_items .menus_item .menus_item_child:before {
+#nav .menus_items .menus_item .menus_item_child:before {
   position: absolute;
   top: -8px;
   left: 0;
@@ -3674,51 +3675,51 @@ a:hover {
   height: 20px;
   content: '';
 }
-.menus_items .menus_item .menus_item_child li {
+#nav .menus_items .menus_item .menus_item_child li {
   list-style: none;
 }
-.menus_items .menus_item .menus_item_child li:hover {
+#nav .menus_items .menus_item .menus_item_child li:hover {
   background: var(--text-bg-hover);
 }
-.menus_items .menus_item .menus_item_child li:first-child {
+#nav .menus_items .menus_item .menus_item_child li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.menus_items .menus_item .menus_item_child li:last-child {
+#nav .menus_items .menus_item .menus_item_child li:last-child {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.menus_items .menus_item .menus_item_child li a {
+#nav .menus_items .menus_item .menus_item_child li a {
   display: inline-block;
   padding: 8px 16px;
   width: 100%;
   color: var(--font-color) !important;
   text-shadow: none !important;
 }
-.hide-menu #toggle-menu {
+#nav.hide-menu #toggle-menu {
   display: inline-block !important;
 }
-.hide-menu #toggle-menu .site-page {
+#nav.hide-menu #toggle-menu .site-page {
   font-size: inherit;
 }
-.hide-menu .menus_items {
+#nav.hide-menu .menus_items {
   display: none;
 }
-.hide-menu #search-button span {
+#nav.hide-menu #search-button span {
   display: none;
 }
-#search-button {
+#nav #search-button {
   display: inline;
   padding: 0 0 0 14px;
 }
-.site-page {
+#nav .site-page {
   position: relative;
   padding-bottom: 6px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   font-size: 0.78em;
   cursor: pointer;
 }
-.site-page:not(.child):after {
+#nav .site-page:not(.child):after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3733,7 +3734,7 @@ a:hover {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.site-page:not(.child):hover:after {
+#nav .site-page:not(.child):hover:after {
   width: 100%;
 }
 #pagination .pagination {
